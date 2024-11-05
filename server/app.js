@@ -29,7 +29,7 @@ connectDB();
 
 app.get("/",(req,res)=>{
 res.json("Welcome to University")
-}
+} )
 //routes
 const userRoutes = require("./routes/User");
 app.use("/user", userRoutes);
