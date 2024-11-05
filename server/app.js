@@ -26,7 +26,7 @@ app.use(express.json());
 //connect mongodb
 connectDB();
 //default route
-before routes write 
+
 app.get("/",(req,res)=>{
 res.json("Welcome to DDD University")
 }
